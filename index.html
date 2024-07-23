@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Activity Finder</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <h1>Open Activity Finder</h1>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2>Welcome to Open Activity Finder</h2>
+            <p>Open Activity Finder is an innovative web platform designed to help users discover and choose activities based on their preferences and locations. Whether you're a beach lover, a mountain enthusiast, or a city explorer, Open Activity Finder has tailored suggestions to make your planning effortless and enjoyable.</p>
+        </section>
+        <section class="purpose">
+            <h2>Purpose</h2>
+            <p>The primary goal of Open Activity Finder is to provide personalized activity recommendations to users, enhancing their travel and leisure experiences by suggesting activities that match their interests and the type of environment they prefer.</p>
+        </section>
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Select the Location Preference:
+                    <select id="location" aria-label="Location Preference">
+                        <option value="beaches">Beaches</option>
+                        <option value="lakes">Lakes</option>
+                        <option value="mountains">Mountains</option>
+                        <option value="hills">Hills</option>
+                        <option value="city">City</option>
+                    </select>
+                </li>
+                <li>User Registration and Profiles: <a href="register.html">Sign Up Here</a></li>
+                <li>User Reviews and Ratings: <a href="reviews.html">Share Your Reviews</a></li>
+                <li>Personalized Recommendations: Use algorithms to suggest activities based on user preferences, past behavior, and current trends.</li>
+            </ul>
+        </section>
+        <section class="activities">
+            <h2>Activity Details</h2>
+            <ul id="activityList" aria-live="polite"></ul>
+        </section>
+        <section class="tagline">
+            <p>Open Activity Finder: Your Gateway to Personalized Adventures.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Open Activity Finder. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
